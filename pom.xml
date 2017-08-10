@@ -32,7 +32,13 @@
               </execution>
           </executions>
         <configuration>
-          <warSourceDirectory>target/war</warSourceDirectory>
+            <webResources>
+                <resource>
+                    <directory>${basedir}/src/main/webapp/WEB-INF/</directory>
+                    <filtering>true</filtering>
+                    <targetPath>WEB-INF</targetPath>
+                </resource>
+            </webResources>
         </configuration>
       </plugin>
     </plugins>
