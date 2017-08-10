@@ -1,0 +1,1 @@
+angular.module('ponyslayer', ['ponyslayer.controllers','ponyslayer.services','ponyslayer.filters']);

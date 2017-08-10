@@ -1,0 +1,16 @@
+/*     ADVENTURE FORM CSS    */
+
+.input-group {
+	margin: 5px;
+}
+
+.form-submitDiv {
+	text-align:center;
+}
+
+.form-synopsis {
+	height:200px !important;
+	resize: none;
+}
+
+

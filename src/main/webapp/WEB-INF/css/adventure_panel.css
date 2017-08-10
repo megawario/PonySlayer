@@ -1,0 +1,61 @@
+
+.adventure-panel-container {
+	margin-right:auto;
+	margin-left: auto;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.infocard {
+    margin:auto !important;
+    width:430px;
+}
+
+.infocard .thumbnail{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.infocard img{
+    height:200px !important;
+    width:200px !important;
+    object-fit:none;
+    object-position:center;
+    margin-right:auto;
+    margin-left:auto;
+    border:3px solid;
+    border-radius: 5px;
+}
+
+.infocard h4{
+    margin:2px;
+}
+
+.infocard .top-element {
+	position:relative;
+	padding:5px;
+}
+
+
+.infocard .caption {
+	text-align:center;
+}
+
+.infoIcons {
+	position: absolute;
+	right: 0;
+	top: 15;
+	height: 100%;
+	width: 45%;
+}
+
+.infoIcons span{
+	margin: 2px;
+	display: inline-flex;
+}
+
+.infoIcons .selectionButtons
+{
+	text-align:center;
+}
+
+

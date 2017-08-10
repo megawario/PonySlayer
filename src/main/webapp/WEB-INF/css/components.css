@@ -1,0 +1,15 @@
+/* Jumbotron panel */
+.jumbotron {
+	text-align:center;
+}
+
+.jumbotron img{
+	height:25%;
+}
+
+/* Feedbackpanel */
+.lisFeedBack ul {
+	padding:0px;
+	list-style:none;
+	list-style-type: none;
+}
