@@ -1,8 +1,8 @@
 SET FOREIGN_KEY_CHECKS=0; -- to disable them
-CREATE OR REPLACE DATABASE lisrpg CHARACTER SET = 'utf8';
+CREATE OR REPLACE DATABASE ponyslayer CHARACTER SET = 'utf8';
 SET FOREIGN_KEY_CHECKS=1; -- to re-enable them
 
-USE lisrpg;
+USE ponyslayer;
 
 CREATE TABLE USER (
    id INT NOT NULL auto_increment,
